@@ -327,7 +327,7 @@ function config.lualine()
 		extensions = {
 			"quickfix",
 			"nvim-tree",
-			"toggleterm",
+			-- "toggleterm",
 			"fugitive",
 			aerial,
 			dapui_scopes,

@@ -51,13 +51,13 @@ ui["akinsho/bufferline.nvim"] = {
 	event = "BufRead",
 	config = conf.nvim_bufferline,
 }
-ui["dstein64/nvim-scrollview"] = {
-	opt = true,
-	event = { "BufRead" },
-	config = function()
-		require("scrollview").setup({})
-	end,
-}
+-- ui["dstein64/nvim-scrollview"] = {
+-- 	opt = true,
+-- 	event = { "BufRead" },
+-- 	config = function()
+-- 		require("scrollview").setup({})
+-- 	end,
+-- }
 ui["mbbill/undotree"] = {
 	opt = true,
 	cmd = "UndotreeToggle",
