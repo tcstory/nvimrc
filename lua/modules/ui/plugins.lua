@@ -24,11 +24,11 @@ ui["SmiteshP/nvim-gps"] = {
 	after = "nvim-treesitter",
 	config = conf.nvim_gps,
 }
-ui["goolord/alpha-nvim"] = {
-	opt = true,
-	event = "BufWinEnter",
-	config = conf.alpha,
-}
+-- ui["goolord/alpha-nvim"] = {
+-- 	opt = true,
+-- 	event = "BufWinEnter",
+-- 	config = conf.alpha,
+-- }
 ui["kyazdani42/nvim-tree.lua"] = {
 	opt = true,
 	cmd = { "NvimTreeToggle" },
